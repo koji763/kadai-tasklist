@@ -11,6 +11,9 @@
   </head>
 
   <body>
-    <%= yield %>
+    <duv class="container">
+      <%= render "layouts/flash_messages" %>
+      <%= yield %>
+    </duv>
   </body>
 </html>
